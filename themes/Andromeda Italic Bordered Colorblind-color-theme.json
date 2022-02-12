@@ -361,8 +361,13 @@
     },
     {
       "name": "Font Bold",
-      "scope": ["keyword", "storage"],
+      "scope": ["storage", "keyword.control.flow.js.jsx"],
       "settings": { "fontStyle": "bold" }
+    },
+    {
+      "name": "Font Bold Italic",
+      "scope": ["keyword.control.export.js.jsx"],
+      "settings": { "fontStyle": "bold italic" }
     }
   ]
 }
